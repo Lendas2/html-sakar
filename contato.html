@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contato | Sakar</title>
+
+  <!-- Fonte Poppins do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 60px;
+    }
+
+    header {
+      background-color: #ffbbcc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .inicio, .cmd, .contato {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 999px;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      display: inline-block;
+      transition: background-color 0.3s;
+      margin: 0 10px;
+    }
+
+    .inicio:hover, .cmd:hover, .contato:hover {
+      background-color: #0056b3;
+    }
+
+    main {
+      padding: 30px;
+    }
+
+    h2 {
+      font-size: 25px;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="imagens/logo.png" alt="Logo do Bot" class="logo">
+
+  <header>
+    <h1>Comandos</h1>
+    <p>
+      <a href="http://localhost:8158/sobre.html" class="inicio">Inicio</a>
+      <a href="http://localhost:8158/primary:Site/comandos.html" class="cmd">Comandos</a>
+      <a href="http://localhost:8158/primary:Site/contato.html" class="contato">Contato</a>
+    </p>
+  </header>
+
+  <main>
+    <ul><strong>Dev Sakar</strong>: @levixt_s2</ul>
+    <ul><strong>Designer Sakar</strong>: @levixt_s2</ul>
+  </main>
+</body>
+</html>

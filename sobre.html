@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bot Sakar | Discord</title>
+
+  <!-- Fonte Poppins do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 70px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #00d4ff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .cta {
+      background-color: #fcd;
+      color: #000;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+      color: #333;
+      margin-top: auto;
+    }
+
+    .contato, .inicio, .cmd, .convite {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 999px;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 19px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+
+    /* Fade In */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo (corrigido) -->
+  <img src="imagens/logo.png" alt="Logo do Bot" class="fade-in" style="
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    z-index: 999;
+    animation-delay: 0s;
+  ">
+
+  <header class="fade-in" style="animation-delay: 0.2s;">
+    <h1 class="fade-in" style="animation-delay: 0.4s;">Sakar</h1>
+    <p class="fade-in" style="animation-delay: 0.6s;">
+      <a href="http://localhost:8158/sobre.html" class="inicio fade-in" style="animation-delay: 0.8s;">Início</a>
+      <a href="http://localhost:8158/comandos.html" class="cmd fade-in" style="animation-delay: 1s;">Comandos</a>
+      <a href="http://localhost:8158/primary:Site/contato.html" class="contato fade-in" style="animation-delay: 1.2s;">Contato</a>
+    </p>
+  </header>
+
+  <section id="sobre" class="fade-in" style="animation-delay: 1.4s;">
+    <h2 class="fade-in" style="animation-delay: 1.6s;">🔥 Conheça O Sakar!</h2>
+
+    <ul class="fade-in" style="animation-delay: 1.8s;">
+      O Sakar foi criado da vontade de ter um companheiro, que possa lhe ajudar no que precisar! O Sakar foi inspirado no personagem <strong>Sukuna</strong> do anime Jujutsu Kaisen.
+    </ul>
+
+    <ul class="fade-in" style="animation-delay: 2s;">
+      Sempre falaram que ter um amigo é tudo. Por que não criar seu próprio amigo que poderá lhe ajudar? Foi por isso que o Sakar foi criado.
+    </ul>
+
+    <ul class="fade-in" style="animation-delay: 2.2s;">
+      O Sakar não tem apenas utilidades de informação, ele lhe oferece outros tipos de comandos como economia, diversão entre outros!
+    </ul>
+  </section>
+
+  <section id="convidar" class="fade-in" style="animation-delay: 2.4s;">
+    <a href="https://www.exemplo.com" class="convite fade-in" style="animation-delay: 2.6s;">+ Me Adicione!</a>
+  </section>
+
+  <footer class="fade-in" style="animation-delay: 2.8s;">
+    <strong>Sakar® Todos Os Direitos Reservados</strong>
+  </footer>
+
+</body>
+</html>
