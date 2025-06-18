@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Comandos | Sakar</title>
 
   <!-- Fonte Poppins do Google Fonts -->
@@ -16,6 +17,8 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      font-size: 18px;
+      line-height: 1.6;
       animation: fadeIn 1.5s ease-in;
     }
 
@@ -26,21 +29,26 @@
 
     header {
       background-color: #ffbbcc;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
     }
 
     .inicio, .cmd, .contato {
       background-color: #007bff;
       color: white;
-      padding: 12px 24px;
+      padding: 14px 30px;
       text-decoration: none;
       border-radius: 999px;
-      font-size: 16px;
+      font-size: 18px;
       font-family: 'Poppins', sans-serif;
       display: inline-block;
       transition: background-color 0.3s;
-      margin: 0 10px;
+      margin: 10px 15px;
     }
 
     .inicio:hover, .cmd:hover, .contato:hover {
@@ -48,19 +56,36 @@
     }
 
     main {
-      padding: 30px;
+      padding: 40px 25px;
+      max-width: 900px;
+      margin: auto;
     }
 
-   
+    h2 {
+      font-size: 26px;
+      margin-top: 40px;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 25px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
   </style>
 </head>
 
 <body>
-
   <header>
     <h1>Comandos</h1>
     <p>
-      <a href="http://localhost:8158/sobre.html" class="inicio">Inicio</a>
+      <a href="http://localhost:8158/sobre.html" class="inicio">Início</a>
       <a href="http://localhost:8158/primary:Site/comandos.html" class="cmd">Comandos</a>
       <a href="http://localhost:8158/primary:Site/contato.html" class="contato">Contato</a>
     </p>
@@ -79,29 +104,29 @@
     
     <h2>Comandos De Informações</h2>
     <ul>
-      <li><strong>s!av</strong>: Veja O Avatar De Uma Pessoa</li>
-      <li><strong>s!userinfo</strong>: Veja A Informação De Uma Pessoa</li>
-      <li><strong>s!ping</strong>: Veja A Latência Do Bot</li>
-      <li><strong>s!botinfo</strong>: Veja A Informação Do Bot</li>
-      <li><strong>s!bn</strong>: Veja O Banner De Alguém</li>
-      <li><strong>s!calc</strong>: Calcule Uma Conta Matemática</li>
+      <li><strong>s!av</strong>: Veja o avatar de uma pessoa</li>
+      <li><strong>s!userinfo</strong>: Veja a informação de uma pessoa</li>
+      <li><strong>s!ping</strong>: Veja a latência do bot</li>
+      <li><strong>s!botinfo</strong>: Veja a informação do bot</li>
+      <li><strong>s!bn</strong>: Veja o banner de alguém</li>
+      <li><strong>s!calc</strong>: Calcule uma conta matemática</li>
     </ul>
     
     <h2>Comandos De Diversão</h2>
     <ul>
-      <li><strong>s!ship</strong>: Veja A Porcentagem De Pessoas Que Lhe Shipam Com Uma Pessoa</li>
-      <li><strong>s!kiss</strong>: Beije Alguém</li>
-      <li><strong>s!rip</strong>: Mate Um Usuário</li>
+      <li><strong>s!ship</strong>: Veja a porcentagem de pessoas que lhe shipam com uma pessoa</li>
+      <li><strong>s!kiss</strong>: Beije alguém</li>
+      <li><strong>s!rip</strong>: Mate um usuário</li>
     </ul>
     
     <h2>Comandos De Administração</h2>
     <ul>
-      <li><strong>/lock</strong>: Tranque Um Canal</li>
-      <li><strong>/unlock</strong>: Destranque Um Canal</li>
-      <li><strong>/clear</strong>: Limpe Uma Quantidade De Mensagens</li>
-      <li><strong>s!mute</strong>: Mute Uma Pessoa</li>
-      <li><strong>s!ban</strong>: Bane Uma Pessoa</li>
-      <li><strong>s!unban</strong>: Desbane Uma Pessoa</li>
+      <li><strong>/lock</strong>: Tranque um canal</li>
+      <li><strong>/unlock</strong>: Destranque um canal</li>
+      <li><strong>/clear</strong>: Limpe uma quantidade de mensagens</li>
+      <li><strong>s!mute</strong>: Mute uma pessoa</li>
+      <li><strong>s!ban</strong>: Bane uma pessoa</li>
+      <li><strong>s!unban</strong>: Desbane uma pessoa</li>
     </ul>
   </main>
 </body>
